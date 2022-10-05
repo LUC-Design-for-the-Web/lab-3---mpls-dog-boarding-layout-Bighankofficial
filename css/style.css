@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #333;
+    color: #fff;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3);
+    grid-gap: 10px;
+}
+
+.top{
+    height: 100px;
+    background: url('./img/mpls_dog_logo.png');
+    
+}
